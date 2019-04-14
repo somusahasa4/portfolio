@@ -32,7 +32,8 @@ body {
 }
 
 .introduction {
-  background: #333 url('../images/bg1.jpg') 0 0 no-repeat / 100% 100%;
+  background: #333 url('../images/bg1.jpg') 0 0 no-repeat;
+  background-size: 100% 100%
   background-attachment: fixed;
   padding-top: 60px;
 }
@@ -42,7 +43,8 @@ body {
 }
 
 .work {
-  background: #333 url('../images/bg5.jpg') 0 0 no-repeat / 100% 100%;
+  background: #333 url('../images/bg5.jpg') 0 0 no-repeat;
+  background-size: 100% 100%
 
     background-attachment: fixed;
 }
@@ -77,7 +79,8 @@ body {
 }
 
 .web-tools {
-  background: #333 url('../images/bg8.jpg') 0 0 no-repeat / 100% 100%;
+  background: #333 url('../images/bg8.jpg') 0 0 no-repeat;
+  background-size: 100% 100%
   background-attachment: fixed;
 }
 
