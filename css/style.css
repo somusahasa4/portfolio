@@ -1,0 +1,122 @@
+body {
+  background: #888;
+  color: #fff;
+}
+
+.navbar {
+  background: #000;
+  border-bottom: 1px solid #444;
+  color:#fff;
+  margin-bottom: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.navbar .navbar-brand:hover,
+.navbar a,
+.navbar a:link,
+.navbar a:active,
+.navbar a:visited {
+  color: #fff;
+}
+
+.navbar a:hover {
+  color:#333;
+}
+
+
+.content {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  text-align: center;
+}
+
+.introduction {
+  background: #333 url('../images/bg1.jpg') 0 0 no-repeat / 100% 100%;
+  background-attachment: fixed;
+  padding-top: 60px;
+}
+
+.introduction p {
+  font-size: 16px;
+}
+
+.work {
+  background: #333 url('../images/bg5.jpg') 0 0 no-repeat / 100% 100%;
+
+    background-attachment: fixed;
+}
+
+.about {
+  text-align: left !important;
+  background: #20203d;
+}
+
+.about p {
+  font-size: 16px;
+}
+
+.work .row{
+  margin-bottom: 50px;
+}
+
+.experience > div{
+  padding-top: 30px;
+  padding-bottom: 15px;
+}
+.experience > div h3{
+  margin-top: 0;
+}
+
+.automate-webpages {
+  background: #01150b;
+  color: #fff;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  text-align: left !important;
+}
+
+.web-tools {
+  background: #333 url('../images/bg8.jpg') 0 0 no-repeat / 100% 100%;
+  background-attachment: fixed;
+}
+
+.websites {
+  background: #01150b;
+  color:#fff;
+  padding-top: 60px;
+  padding-bottom: 30px;
+}
+
+.websites ul a {
+  color: #fff;
+  font-size: 16px;
+}
+
+
+.technologies>div {
+  margin-bottom: 20px;
+}
+
+.content ul {
+  text-align: left;
+  max-width: 200px;
+  margin: 0 auto;
+}
+
+.contact {
+  background: #000;
+  color:#fff;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.contact p a {
+  color: #fff;
+}
+
+footer {
+  background: #01150b;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
