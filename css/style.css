@@ -45,8 +45,13 @@ body {
 .work {
   background: #333 url('../images/bg5.jpg') 0 0 no-repeat;
   background-size: 100% 100%;
+  background-attachment: fixed;
+}
 
-    background-attachment: fixed;
+.work .col-md-3 img:hover {
+  transform: scale(1.1);
+  -webkit-transition: transform 1s; /* Safari */
+  transition: transform 1s;
 }
 
 .about {
